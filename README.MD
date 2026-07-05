@@ -98,10 +98,8 @@ A resposta do servidor usa o formato `!BH` seguido da mensagem:
 - Validação de integridade com SHA-256.
 - Atendimento de múltiplos clientes com threads.
 
-## Pontos de atenção
+## Limitações
 
 - O servidor salva os arquivos recebidos em `arquivos_recebidos/`.
 - Arquivos com o mesmo nome substituem versões anteriores no destino final.
 - O projeto é didático e não implementa autenticação, autorização ou criptografia.
-- Para uso fora de ambiente local, considere adicionar TLS, autenticação e
-  regras mais rígidas de permissão.
